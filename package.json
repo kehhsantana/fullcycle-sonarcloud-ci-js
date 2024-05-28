@@ -4,7 +4,7 @@
     "description": "Testing SonarCloud CI",
     "main": "src/calculator.js",
     "scripts": {
-      "test": "jest --forceExit --coverage --runInBand src/calculator.test.js"
+      "test": "jest --coverage"
     },
     "author": "kehhsantana",
     "license": "ISC",
