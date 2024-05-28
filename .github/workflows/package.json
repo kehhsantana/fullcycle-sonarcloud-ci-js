@@ -1,0 +1,16 @@
+{
+    "name": "sonarcloud",
+    "version": "1.0.0",
+    "description": "Testing SonarCloud CI",
+    "main": "src/calculator.js",
+    "scripts": {
+      "test": "jest --forceExit --coverage --runInBand src/calculator.test.js"
+    },
+    "author": "kehhsantana",
+    "license": "ISC",
+    "dependencies": {
+      "@types/jest": "^29.5.0",
+      "jest": "^29.5.0",
+      "sonar-scanner": "^3.1.0"
+    }
+  }
