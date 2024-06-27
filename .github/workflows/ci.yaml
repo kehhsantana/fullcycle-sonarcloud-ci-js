@@ -1,4 +1,4 @@
-name: sonarcloud
+name: calculator.js
 on:
   pull_request:
     branches:
